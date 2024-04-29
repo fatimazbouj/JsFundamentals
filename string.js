@@ -46,3 +46,26 @@ console.log(substring);
 // replace the first iteration of a caracter with an other
 const replace= email.replace('m','w');
 console.log(replace);
+
+const title = 'Best reads of 2024';
+const author="Fatima";
+const likes=30;
+
+// concatenation way
+let stringResult='The blog called '+title+' by '+author+' has '+likes;
+
+// template string way
+ stringResult=`The blog called ${title} by ${author} has ${likes}`;
+
+// creating html template
+
+let html = `
+    <h2>${title}</h2>
+    <p>${author}</p>
+    <span>this blog has ${likes} likes</span>
+`;
+
+console.log(html)
+
+console.log(stringResult);
+
