@@ -1,0 +1,10 @@
+{
+    "prettier.requirePragma": true,
+    "prettier.resolveGlobalModules": true,
+    "prettier.requireConfig": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
