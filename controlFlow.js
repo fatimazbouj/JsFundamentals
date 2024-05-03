@@ -78,3 +78,24 @@ switch (grade) {
   default:
     console.log("not a valid grade!");
 }
+
+//foreach loop
+
+names.forEach((person, index) => {
+  console.log(`foreach loop ${person} , index ${index}`);
+});
+
+//foreach loop with calback function
+const logPerson = (person, index) => {
+  console.log(`the person ${person}, has index ${index}`);
+};
+
+names.forEach(logPerson);
+
+const ul = document.querySelector(".person");
+let html = ``;
+names.forEach((name) => {
+  html += `<li style="color:pink;background:gray"> ${name}</li>`;
+});
+
+ul.innerHTML = html;
