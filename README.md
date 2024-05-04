@@ -14,3 +14,20 @@
  - Undefined : To say the variable is not yet defined
  - Object : Complex data structure, arrays , dates, literals
  - Sybmbol : used with object
+
+## Primitive & reference types:
+### Primitive types:
+- numbers
+- strings
+- booleans
+- null
+- undefined
+- symbols
+
+### Reference types:
+All type of objects:
+-object literals
+-arrays
+-functions
+-dates
+-all other objects
