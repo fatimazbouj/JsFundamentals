@@ -26,8 +26,8 @@
 
 ### Reference types:
 All type of objects:
--object literals
--arrays
--functions
--dates
--all other objects
+- object literals
+- arrays
+- functions
+- dates
+- all other objects
