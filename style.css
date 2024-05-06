@@ -1,0 +1,17 @@
+.errorMsg {
+  padding: 10px;
+  margin: 5px;
+  color: red;
+  border: 1px dotted crimson;
+}
+
+.successMsg {
+  padding: 10px;
+  margin: 5px;
+  color: limegreen;
+  border: 1px dotted limegreen;
+}
+
+.centralizedText {
+  text-align: center;
+}
